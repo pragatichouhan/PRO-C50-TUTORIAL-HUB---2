@@ -1,0 +1,72 @@
+.menu {
+  /* add correct code to place the menu correctly.*/
+
+  background-color: black;
+  font-size: 30px;
+  font-family: sans-serif;
+  font-weight: 400;
+  color: white;
+  margin-right: 50px;
+   }
+   .menu a{
+    margin-left: 20px;
+ }
+   a:link{
+    color:rgb(57, 36, 114)
+  }
+   a:visited{
+    color:beige
+   }
+   .grid{
+
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+   }
+   .footer{
+    display:flex;
+    justify-content: flex-end;
+   }
+  
+
+body {
+  background-color: #F5F5F5;
+}
+.grid {
+  /* add correct code to place the grid elements 
+  one beside the other equally.   */
+  display:flex;
+  flex-wrap: wrap;
+  font-family: sans-serif;
+}
+
+.grid img {
+  border: 2px solid black;
+  border-radius: 50px;
+}
+.origami {
+  border-radius: 20px;
+  background-color: white;
+  margin: 20px;
+
+  width: 310px;
+  font-family: fantasy;
+}
+.languages{
+  position:relative
+}
+.languages p{
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+  opacity: 0;
+
+}
+.languages:hover p{
+  opacity: 1;
+
+}
+.languages:hover img{
+  opacity: 0.33;
+}
